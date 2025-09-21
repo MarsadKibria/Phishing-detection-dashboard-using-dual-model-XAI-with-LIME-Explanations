@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5 {{ color: {HIGHLIGHT} !important; }}
 
 # Header
 
-st.title("🛡️ XAI Dual-Model Security Dashboard (v16 SOC)")
+st.title("🛡️ XAI Dual-Model Security Dashboard (Marsad Kibria)")
 st.markdown(
     f"<span style='color:{SUBTITLE}'>Upload Emails/URLs for dual-model risk analysis with enhanced LIME insights and contradiction detection.</span>",
     unsafe_allow_html=True
@@ -232,3 +232,4 @@ st.markdown(
     f"<span style='color:{HIGHLIGHT}'>Legend:</span> 📧 Email | 🌐 URL | ⚠️ Flags | ↑ increase risk | ↓ reduce risk | Semantic = cyan | Contradiction = orange | HITL = manual corrections",
     unsafe_allow_html=True
 )
+
